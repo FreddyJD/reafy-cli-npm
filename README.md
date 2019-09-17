@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/juli-ai/reafy-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/juli-ai/reafy-cli)
 
 
-![npm](https://img.shields.io/npm/dm/reafy)
+[![npm](https://img.shields.io/npm/dm/reafy)](https://github.com/juli-ai/reafy-cli)
 
 
 https://img.shields.io/npm/dm/reafy
