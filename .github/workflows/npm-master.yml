@@ -18,9 +18,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: |
-        npm ci
-        npm test
+      - run: npm ci && npm test
       - name: upload codecov
       - uses: codecov/codecov-action@v1.0.2
         with:
