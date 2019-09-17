@@ -1,4 +1,4 @@
-name: Node.js Package
+name: npm-master
 
 on:
   pull_request:
