@@ -13,14 +13,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: npm install and test
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
+      - name: run npm install and test
         with:
           node-version: 12
       - run: npm ci && npm test
-      - name: upload codecov
       - uses: codecov/codecov-action@v1.0.2
+      - name: upload codecov
         with:
           token: ${{secrets.CODECOV_TOKEN}}
           file: ./coverage.xml
@@ -38,4 +38,4 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
