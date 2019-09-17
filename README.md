@@ -1,10 +1,4 @@
-[![Actions Status](https://github.com/juli-ai/reafy-cli/workflows/npm-master/badge.svg)](https://github.com/juli-ai/reafy-cli/actions)
-
-
-[![codecov](https://codecov.io/gh/juli-ai/reafy-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/juli-ai/reafy-cli)
-
-
-[![npm](https://img.shields.io/npm/dm/reafy)](https://github.com/juli-ai/reafy-cli)
+[![Actions Status](https://github.com/juli-ai/reafy-cli/workflows/npm-master/badge.svg)](https://github.com/juli-ai/reafy-cli/actions) [![codecov](https://codecov.io/gh/juli-ai/reafy-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/juli-ai/reafy-cli) [![npm](https://img.shields.io/npm/dm/reafy)](https://github.com/juli-ai/reafy-cli)
 
 
 https://img.shields.io/npm/dm/reafy
