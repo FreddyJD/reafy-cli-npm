@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/juli-ai/reafy-cli/workflows/npm-master/badge.svg)](https://github.com/juli-ai/reafy-cli/actions) [![codecov](https://codecov.io/gh/juli-ai/reafy-cli/branch/master/graph/badge.svg)](https://codecov.io/gh/juli-ai/reafy-cli) [![npm](https://img.shields.io/npm/dm/reafy)](https://github.com/juli-ai/reafy-cli)
+[![Actions Status](https://github.com/juli-ai/reafy-cli/workflows/npm-master/badge.svg)](https://github.com/juli-ai/reafy-cli/actions) [![npm](https://img.shields.io/npm/dm/reafy)](https://github.com/juli-ai/reafy-cli)
 
 Deploy easily your **react-app** to the cloud. The main difference between Reafy, and other providers is that we dont move your application to cold-storage when your app stop getting traffic. 
 

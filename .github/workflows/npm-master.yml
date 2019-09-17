@@ -15,18 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
-      - name: run npm install and test
         with:
           node-version: 12
       - run: npm ci && npm test
-      - uses: codecov/codecov-action@v1.0.2
-      - name: upload codecov
-        with:
-          token: ${{secrets.CODECOV_TOKEN}}
-          file: ./coverage.xml
-          flags: unittests
-          name: codecov-umbrella 
-          
+
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
