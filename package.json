@@ -4,7 +4,7 @@
   "description": "❤️ Reafy | deploy your react app painless to the cloud",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --reporter=text mocha --exit"
   },
   "repository": {
     "type": "git",
@@ -33,9 +33,16 @@
     "concat-stream": "2.0.0",
     "cross-zip": "2.1.6",
     "dotenv": "8.1.0",
+    "execa": "^2.0.4",
     "form-data": "2.5.1",
     "inquirer": "7.0.0",
+    "mocha": "^6.2.0",
     "request": "2.88.0",
+    "tape": "^4.11.0",
     "zip-dir": "1.0.2"
+  },
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "nyc": "^14.1.1"
   }
 }
