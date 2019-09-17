@@ -4,7 +4,8 @@
   "description": "❤️ Reafy | deploy your react app painless to the cloud",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=text mocha --exit"
+    "test": "nyc --reporter=lcov mocha --exit",
+    "coverage": "codecov"         
   },
   "repository": {
     "type": "git",
